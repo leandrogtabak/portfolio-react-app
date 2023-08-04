@@ -1,4 +1,6 @@
 import React from 'react'
+import { Element } from 'react-scroll';
+
 
 function About () {
     return (
@@ -14,14 +16,14 @@ function About () {
                     </div>
                     <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right text-4xl font-bold'>
-                            <p>Hi. My name is Leandro, nice to meet you. Please take a look around.</p>
+                            <p data-aos="fade-right">Hey there, welcome!</p>
+                            <p data-aos="fade-right">Feel free to explore and discover more about my journey.</p>
                         </div>
-                        <div>
-                            <p>I am passionate about building excellent software that improves
-                            the lives of thos around me. I specialize in creating software
-                            for clients ranging from individuals and small-businesses all the
-                            way to large enterprise corporations. What would you do if you had
-                            a software expert available at your fingertips?</p>
+                        <div data-aos="fade-left"> 
+                            <p>Passionate about crafting outstanding software solutions that enhance the lives of those in my sphere.
+                            Specializing in developing software for diverse clients, from individuals and small businesses to
+                            large enterprise corporations. Imagine having a software expert at your fingertips—what
+                            possibilities would it unlock?</p>
                         </div>
                     </div>
                 </div>
